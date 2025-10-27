@@ -1,4 +1,3 @@
----
 
 ### Week 17 : 27 Oct 25
 
@@ -22,4 +21,3 @@ F1 Score : Balance between Precision and Recall
  R = TP / TP + FN
 
  F1 Score = 2 X ( (P * R) / (P + R))
----
