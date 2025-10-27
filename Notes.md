@@ -21,3 +21,11 @@ F1 Score : Balance between Precision and Recall
  R = TP / TP + FN
 
  F1 Score = 2 X ( (P * R) / (P + R))
+
+### Example of TP TN FP FN
+
+ | Actual \ Predicted | Spam                  | Not Spam              |
+| ------------------ | --------------------- | --------------------- |
+| **Spam**           | ✅ True Positive (TP)  | ❌ False Negative (FN) |
+| **Not Spam**       | ❌ False Positive (FP) | ✅ True Negative (TN)  |
+
