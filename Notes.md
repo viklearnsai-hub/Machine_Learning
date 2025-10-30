@@ -30,3 +30,15 @@ F1 Score = 2 X ( (P \* R) / (P + R))
 
 High precision = few false positives [Able to guess it correctly]
 High recall = few false negatives [Revalidating that what is guessed is correct]
+
+---
+
+### 30th Oct 25
+
+### Naive Bayes Classification Algorithm
+
+- Used in whether email is spam or not
+- Identifying this or that
+- Results are fast and accurate as it works on probablity
+- **P(B|A)** = (P(B) X P(A|B))/P(A)
+- ***
