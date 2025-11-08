@@ -42,3 +42,7 @@ High recall = few false negatives [Revalidating that what is guessed is correct]
 - Results are fast and accurate as it works on probablity
 - **P(B|A)** = (P(B) X P(A|B))/P(A)
 - ***
+
+---
+
+### 6th Nov
