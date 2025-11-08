@@ -45,4 +45,20 @@ High recall = few false negatives [Revalidating that what is guessed is correct]
 
 ---
 
-### 6th Nov
+### 8th Nov
+
+### KNN K Nearest Neighbour Algorithm
+
+- Applicable for both classification and regression
+- Mostly used in classification
+- K = sqrt(total no of elements)
+- Once that is done then we have to find K nearest point in all direction
+- Calculate distance in each point
+
+### Way of calculating distance
+
+- **Euclidian Distance** : Sqrt((x1-x2)<sup>2</sup> + (y1-y2)<sup>2</sup>)
+- **Manhattan Distance** : |x1-x2| + |y1-y2|
+- **Minkoswi Distance** : Sqrt<sup>p</sup>((x1-x2)<sup>p</sup> + (y1-y2)<sup>p</sup>)
+- P is a expotential value where p<sub>1</sub> = Manhattan , p<sub>2</sub> = Euclidian and p<sub>infinity</sub> = chebyshev
+- So basically **Minkoswi Distance** is basically combination of other ways of calculating distance
