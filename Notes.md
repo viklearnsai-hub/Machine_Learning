@@ -62,3 +62,10 @@ High recall = few false negatives [Revalidating that what is guessed is correct]
 - **Minkoswi Distance** : Sqrt<sup>p</sup>((x1-x2)<sup>p</sup> + (y1-y2)<sup>p</sup>)
 - P is a expotential value where p<sub>1</sub> = Manhattan , p<sub>2</sub> = Euclidian and p<sub>infinity</sub> = chebyshev
 - So basically **Minkoswi Distance** is basically combination of other ways of calculating distance
+
+---
+
+### 10th Nov
+
+- Value of K should be odd instead of even -- [ To avoid the possibility of a tie]
+- Practicals : week19 knntest.py
