@@ -42,9 +42,9 @@ X =[[1,5],
     [5,3],
     [6,4]]
 
-Y = ["Mobile","Mobile","Chess","Chess","Cricket","Cricket"]
+Y = ["Mobile","Mobile","Chess","Chess","Mobile","Cricket"]
 
-k = 3
+k = 4
 model = KNeighborsClassifier(n_neighbors=k)
 model.fit(X,Y)
 
