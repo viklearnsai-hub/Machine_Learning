@@ -18,10 +18,11 @@ for k in knns:
     eculadianModel.fit(x_encoded,y)
 
     y_pred = eculadianModel.predict(x_test)
-    print(f"Model accuracy for Eculadian {accuracy_score(y_test,y_pred)} when k is {k}")
+    print(f"Euclidean (k={k}): Accuracy = {accuracy_score(y_test, y_pred):.3f}")
 
     manhattanModel = KNeighborsClassifier(n_neighbors=k,metric="manhattan")
     manhattanModel.fit(x_encoded,y)
 
     y_pred = manhattanModel.predict(x_test)
-    print(f"Model accuracy for Manhattan {accuracy_score(y_test,y_pred)} when k is {k}")
+    print(f"Manhattan (k={k}): Accuracy = {accuracy_score(y_test, y_pred):.3f}")
+    print("-"*50)
